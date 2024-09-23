@@ -61,7 +61,7 @@
             {
                 for (int j = i + 1; j < arr.Length; j++)
                 {
-                    if (arr[i] == arr[j])
+                    if (arr[i].Name == arr[j].Name)
                     {
                         Console.WriteLine($"Same name: {arr[i].Name}");
                         arr[i].Output();
